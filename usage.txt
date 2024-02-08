@@ -13,4 +13,8 @@ myapp config             create or change the app configuration
 myapp config --show      show contents of the config file
 myapp config --reset     reset back to default the config file
 myapp config --set       set a specific attribute in the config file
+
 myapp token              manage the user tokens
+myapp token --list       list all the tokens
+myapp token --count      count all the tokens
+myapp token --new        create a new token
